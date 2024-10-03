@@ -10,4 +10,4 @@ COPY . /app
 # Install any needed dependencies specified in requirements.txt
 RUN pip install --no-cache-dir -r Default/requirements.txt
 
-ENTRYPOINT ["python3", "src/main.py"]
+ENTRYPOINT ["python", "src/main.py"]
